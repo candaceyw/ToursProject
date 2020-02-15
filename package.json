@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candaceyw/ToursProject.git"
+  },
+  "author": "Candace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candaceyw/ToursProject/issues"
+  },
+  "homepage": "https://github.com/candaceyw/ToursProject#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "live-server": "^1.2.1"
+  }
+}
